@@ -1,0 +1,41 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.MercurySuite :: Testing MercuryTours Website                           
+==============================================================================
+TestCase1: Navigating Mercury Webpage :: This is to verify invalid... Browser is Maximized
+Home Page Title Verified
+Clicked on Signon link successfully
+Navigated to :Sign-on: Mercury Tours
+Href attribite found
+| PASS |
+------------------------------------------------------------------------------
+TestCase2: User Registration in Mercury Website :: This is to veri... Browser is Maximized
+Home Page Title Verified
+All input data entered
+Submitted Registration
+Note: Your user name is aditya.qa14@gmail.com.
+| PASS |
+------------------------------------------------------------------------------
+TestCase3: Booking Flight and then SignOff :: This is to verify th... Browser is Maximized
+Home Page Title Verified
+All input data entered
+Submitted Registration
+Find a Flight: Mercury Tours:
+Navigate to :Select a Flight: Mercury Tours
+Navigate to :Book a Flight: Mercury Tours
+Navigated to :Flight Confirmation: Mercury Tours
+Displaying:Your itinerary has been booked!
+FlightConfirmationNo: Flight Confirmation # 2019-06-16053336
+Flight Booked Successfully
+| PASS |
+------------------------------------------------------------------------------
+Suites.MercurySuite :: Testing MercuryTours Website                   | PASS |
+3 critical tests, 3 passed, 0 failed
+3 tests total, 3 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+3 critical tests, 3 passed, 0 failed
+3 tests total, 3 passed, 0 failed
+==============================================================================
+Output:  C:\Users\PAVAN KUMAR\PycharmProjects\Selenium_Robot\Result\pabot_results\Suites.MercurySuite\output.xml

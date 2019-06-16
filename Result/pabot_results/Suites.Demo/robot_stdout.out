@@ -1,0 +1,19 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Demo :: Testing MercuryTours Website                                   
+==============================================================================
+TestCase1: Navigating Mercury Webpage                                 Navigated to Website Successfully
+Home Page Title Verified
+Clicked on SignOn Link Successfully
+| PASS |
+------------------------------------------------------------------------------
+Suites.Demo :: Testing MercuryTours Website                           | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Users\PAVAN KUMAR\PycharmProjects\Selenium_Robot\Result\pabot_results\Suites.Demo\output.xml

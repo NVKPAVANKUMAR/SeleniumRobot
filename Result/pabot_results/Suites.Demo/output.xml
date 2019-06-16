@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20190616 17:55:58.721" generator="Robot 3.1.1 (Python 2.7.16 on win32)">
+<suite id="s1" name="Suites">
+<suite source="C:\Users\PAVAN KUMAR\PycharmProjects\Selenium_Robot\Test\TestSuite\Demo.robot" id="s1-s1" name="Demo">
+<test id="s1-s1-t1" name="TestCase1: Navigating Mercury Webpage">
+<kw name="Open Mercury Website in Chrome and Maximize">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>url=${URL}</arg>
+<arg>browser=chrome</arg>
+</arguments>
+<msg timestamp="20190616 17:55:59.049" level="INFO">Opening browser 'chrome' to base url 'http://newtours.demoaut.com/'.</msg>
+<status status="PASS" endtime="20190616 17:58:04.485" starttime="20190616 17:55:59.049"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20190616 17:58:05.711" starttime="20190616 17:58:04.485"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Navigated to Website Successfully</arg>
+</arguments>
+<status status="PASS" endtime="20190616 17:58:05.713" starttime="20190616 17:58:05.712"></status>
+</kw>
+<status status="PASS" endtime="20190616 17:58:05.713" starttime="20190616 17:55:59.049"></status>
+</kw>
+<kw name="Verify the Home page title">
+<kw name="Title Should Be" library="Selenium2Library">
+<doc>Verifies that current page title equals ``title``.</doc>
+<arguments>
+<arg>${title}</arg>
+</arguments>
+<msg timestamp="20190616 17:58:05.790" level="INFO">Page title is 'Welcome: Mercury Tours'.</msg>
+<status status="PASS" endtime="20190616 17:58:05.790" starttime="20190616 17:58:05.719"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Home Page Title Verified</arg>
+</arguments>
+<status status="PASS" endtime="20190616 17:58:05.791" starttime="20190616 17:58:05.791"></status>
+</kw>
+<status status="PASS" endtime="20190616 17:58:05.791" starttime="20190616 17:58:05.719"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${timeout}</arg>
+</arguments>
+<msg timestamp="20190616 17:58:08.800" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20190616 17:58:08.801" starttime="20190616 17:58:05.791"></status>
+</kw>
+<kw name="Click on Sign-On Link">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>name=login</arg>
+</arguments>
+<msg timestamp="20190616 17:58:08.801" level="INFO">Clicking element 'name=login'.</msg>
+<status status="PASS" endtime="20190616 17:59:53.735" starttime="20190616 17:58:08.801"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Clicked on SignOn Link Successfully</arg>
+</arguments>
+<status status="PASS" endtime="20190616 17:59:53.739" starttime="20190616 17:59:53.735"></status>
+</kw>
+<status status="PASS" endtime="20190616 17:59:53.740" starttime="20190616 17:58:08.801"></status>
+</kw>
+<kw name="Close Browser Window">
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190616 17:59:56.083" starttime="20190616 17:59:53.740"></status>
+</kw>
+<status status="PASS" endtime="20190616 17:59:56.084" starttime="20190616 17:59:53.740"></status>
+</kw>
+<tags>
+<tag>DEBUG</tag>
+</tags>
+<status status="PASS" endtime="20190616 17:59:56.084" critical="yes" starttime="20190616 17:55:59.049"></status>
+</test>
+<doc>Testing MercuryTours Website</doc>
+<status status="PASS" endtime="20190616 17:59:56.087" starttime="20190616 17:55:58.752"></status>
+</suite>
+<status status="PASS" endtime="20190616 17:59:56.091" starttime="20190616 17:55:58.725"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="1">DEBUG</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Suites" pass="1">Suites</stat>
+<stat fail="0" id="s1-s1" name="Demo" pass="1">Suites.Demo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

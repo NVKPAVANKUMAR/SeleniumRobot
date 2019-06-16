@@ -1,0 +1,6 @@
+datasources:2d92f5bd044716bcd82e5ee7ad953423529f6b84
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:8a9d5b1937e5a7684169ee62d8532c42e3fba1f2
+--suite Suites.Demo
+--suite Suites.MercurySuite
